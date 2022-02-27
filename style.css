@@ -27,6 +27,19 @@
     bottom: 0;
     animation: rocket 4s linear infinite;
 }
+.content{
+    top: 70%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: #ff3753;
+}
 @keyframes rocket{
     0%{
         bottom: 0;
